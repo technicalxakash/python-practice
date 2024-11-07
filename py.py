@@ -801,6 +801,44 @@ Arbitrary positional arguments
 These arguments are used when a function can accept a variable number of positional arguments. 
 Arbitrary keyword arguments
 These arguments are used when a function can accept a variable number of keyword arguments. 
-
-
 """
+
+
+# def sum(*a):
+#     print(a)
+# sum(1,2,3,4,5,6)
+
+# def add(*numbers):
+#     return sum(numbers)
+# print(add(1,2,3,4,5,6))
+
+# def students(**details):
+#     print(type(details))
+#     for key,value in details.items():
+#         print(f"{key}:{value}")
+# students(name="akash",age=21,course="cs")
+
+# add = lambda a,b : a+b
+# print(add(1,2))
+
+# mul = lambda a,b : a*b
+# print(mul(2,3))
+
+# d = [{7058: 'sravan',
+#  7059: 'jyothika', 
+#  7072: 'harsha',
+#   7075: 'deepika'}] 
+
+# ]
+
+# def greet():
+#     print("Hello")
+#     greet()
+# greet()
+
+# def factorial(n):
+#     if n==1:
+#         return 1
+#     return n*factorial(n-1)
+# print(factorial(4))
+
