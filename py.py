@@ -842,3 +842,42 @@ These arguments are used when a function can accept a variable number of keyword
 #     return n*factorial(n-1)
 # print(factorial(4))
 
+
+
+# for i in range(0,4):
+#     print(i*i)
+# n=int(input())
+# i=0
+# while i<=n:
+#     print(i*i)
+#     i=i+1
+# def is_leap(year):
+#     leap = False
+#     if year % 4!=0:
+#         return false
+#         break
+#     else:
+#         if year % 100 !=0:
+#             return false
+#         if year % 400==0:
+#             return true
+#         else:
+#             return false
+#     # Write your logic here
+    
+#     return leap
+
+# year = int(input())
+
+# def is_leap(year):
+#     leap = False
+#     if (year % 4==0)and (year % 100 != 0 or year % 400 == 0 ):
+#         return True
+#     else:
+#         return False
+#     # Write your logic here
+    
+#     return leap
+
+# year = int(input())
+# print(is_leap(year))
