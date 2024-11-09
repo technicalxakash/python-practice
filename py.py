@@ -881,3 +881,7 @@ These arguments are used when a function can accept a variable number of keyword
 
 # year = int(input())
 # print(is_leap(year))
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(1,n+1):
+        print(i,end='')
