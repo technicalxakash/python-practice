@@ -881,7 +881,40 @@ These arguments are used when a function can accept a variable number of keyword
 
 # year = int(input())
 # print(is_leap(year))
-if __name__ == '__main__':
-    n = int(input())
-    for i in range(1,n+1):
-        print(i,end='')
+# if __name__ == '__main__':
+#     n = int(input())
+#     for i in range(1,n+1):
+#         print(i,end='')
+
+# if __name__ == '__main__':
+#     x = int(input())
+#     y = int(input())
+#     z = int(input())
+#     n = int(input())
+#     result=[]
+#     for i in range(x+1):
+#         for j in range(y+1):
+#             for k in range(z+1):                
+#                 result.append([i,j,k])
+#     print(result)
+
+# if __name__ == '__main__':
+#     n = int(input())
+#     l = map(int, input().split())
+    
+#     s=set(l)
+#     ll=list(s)
+#     ll.sort()
+#     g=ll[-s]
+#     print(g)
+
+# if __name__ == '__main__':
+#     n = int(input())
+#     student_marks = {}
+#     for _ in range(n):
+#         name, *line = input().split()
+#         scores = list(map(float, line))
+#         student_marks[name] = scores
+#     query_name = input()
+#     avg_marks=(sum(student_marks[query_name])/3)
+#     print("{:.2f}".format(avg_marks))
