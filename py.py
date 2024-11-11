@@ -918,3 +918,45 @@ These arguments are used when a function can accept a variable number of keyword
 #     query_name = input()
 #     avg_marks=(sum(student_marks[query_name])/3)
 #     print("{:.2f}".format(avg_marks))
+
+# import string
+ 
+# # initializing string
+# test_str = "abbabba"
+ 
+# # printing original string
+# print("The original string is : " + str(test_str))
+ 
+# # Using translate() + maketrans()
+# # Replace multiple characters at once
+# res = test_str.translate(string.maketrans("ab", "ba"))
+ 
+# # printing result
+# print("The string after replacement of positions : " + res)
+
+
+
+# # define the input string
+# str1 = "abbabba"
+# # printing original string
+# print("The original string is : " + str(str1))
+
+# # use a list comprehension to iterate through the string and replace each character
+# # if the character is 'a', replace it with 'b'
+# # if the character is 'b', replace it with 'a'
+# # if the character is anything else, leave it unchanged
+# new_str = ''.join(['a' if char == 'b' else 'b' if char == 'a' else char for char in str1])
+
+# # print the new string
+# print("The string after replacement of positions : " +new_str)
+# #This code is contributed by Jyothi pinjala.
+new_str = ''
+str1="apples"
+for char in str1:
+    if char == 'b':
+        new_str += 'a'
+    elif char == 'a':
+        new_str += 'b'
+    else:
+        new_str += char
+print(new_str)
