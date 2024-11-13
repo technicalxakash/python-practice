@@ -1027,4 +1027,15 @@ These arguments are used when a function can accept a variable number of keyword
 #     for name in sorted(sln):
 #         print(name)
             
-        
+# number=float(input("enter the number : "))
+# if number>0:
+#     print(f"{number} is negative")
+# elif number<0:
+#     print(f"{number} is positive")
+# else:
+#     print(f"{number} is equal to 0")
+
+# inp=list("varnu")
+# inp[3],inp[4]=inp[4],inp[3]
+# new="".join(inp)
+# print(new)
