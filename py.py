@@ -1039,3 +1039,63 @@ These arguments are used when a function can accept a variable number of keyword
 # inp[3],inp[4]=inp[4],inp[3]
 # new="".join(inp)
 # print(new)
+
+# num=int(input("enter the number : "))
+# if num%2==0:
+#     print(f"{num} is even")
+# else:
+#     print(f"{num} is odd")
+
+# year=int(input("enter the year : "))
+# if year%4==0:
+#     if year%100==0:
+#        if year%400==0:
+#         print(f"{year} is a leap year")
+#        else:
+#         print(f"{year} is not a leap year")
+#     else:
+#        print(f"{year} is not a leap year")
+# else:
+#     print(f"{year} is not a leap year")
+
+
+# year=int(input("enter the year : "))
+# if year%4==0 and year%100!=0 or year%400==0:
+#     print(f"{year} is a leap year")
+# else:
+#     print(f"{year} is not a leap year")
+
+# for i in range(1,101,2):
+#     print(i)
+
+
+
+# num = input("Enter the number: ")
+
+# try:
+#     num = int(num)  # Convert input to an integer
+#     if num <= 1:
+#         print(f"{num} is not a prime number")
+#     else:
+#         is_prime = True  # Assume the number is prime initially
+#         for i in range(2, int(num**0.5) + 1):
+#             if num % i == 0:
+#                 is_prime = False
+#                 break  # Exit the loop as we found a divisor
+#         if is_prime:
+#             print(f"{num} is a prime number")
+#         else:
+#             print(f"{num} is not a prime number")
+# except ValueError:
+#      print("Invalid input! Please enter a valid integer.")
+
+# num=int(input("enter the number : "))
+
+# if num <= 1:
+#     print(f"{num} is not a prime number")
+# else:
+#    for i in range(2, int(num**0.5) + 1):
+#      if num % i == 0:
+#             print(f"{num} is a prime number")
+#      else:  
+#         print(f"{num} is a prime number")      
