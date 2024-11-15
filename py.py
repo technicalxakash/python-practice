@@ -1099,3 +1099,48 @@ These arguments are used when a function can accept a variable number of keyword
 #             print(f"{num} is a prime number")
 #      else:  
 #         print(f"{num} is a prime number")      
+
+# data = 50
+# try:
+#     data = data/0
+# except ZeroDivisionError:
+#     print('Cannot divide by 0 ', end = '')
+# else:
+#     print('Division successful ', end = '')
+
+# try:
+#     data = data/5
+# except:
+#     print('Inside except block ', end = '')
+# else:
+#     print('GFG', end = '')
+
+
+# data = 50
+# try:
+#     data = data/10
+# except ZeroDivisionError:
+#     print('Cannot divide by 0 ', end = '')
+# finally:
+#     print('GeeksforGeeks ', end = '')
+# else:
+#     print('Division successful ', end = '')
+
+# value = [1, 2, 3, 4]
+# data = 0
+# try:
+#     data = value[3]
+# except IndexError:
+#     print('GFG IndexError  ', end = '')
+# except:
+#     print('GeeksforGeeks IndexError  ', end = '')
+# finally:
+#     print('Geeks IndexError  ', end = '')
+
+# data = 10
+# try:
+#     data = data/0
+# except ZeroDivisionError:
+#     print('GFG ZeroDivisionError  ', end = '')
+# finally:
+#     print('Geeks ZeroDivisionError  ')
