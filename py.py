@@ -953,10 +953,10 @@ These arguments are used when a function can accept a variable number of keyword
 # new_str = ''
 # str1="apples"
 # for char in str1:
-#     if char == 'b':
+#     if char == 'p':
 #         new_str += 'a'
 #     elif char == 'a':
-#         new_str += 'b'
+#         new_str += 'p'
 #     else:
 #         new_str += char
 # print(new_str)
@@ -1144,3 +1144,46 @@ These arguments are used when a function can accept a variable number of keyword
 #     print('GFG ZeroDivisionError  ', end = '')
 # finally:
 #     print('Geeks ZeroDivisionError  ')
+# n=int(input())
+
+# def fact_number(n):
+#     return n*fact_number(n-1)
+# print(fact_number(n))
+
+# num = int(input("Enter the number: "))
+# def fact_number(num):
+#     if num==0:
+#         return 1
+#     else:
+#         return num*fact_number(num-1)
+# print(fact_number(num))
+
+# new_str = ''
+# str1="apples"
+# for char in str1:
+#     if char == 'p':
+#         new_str += 'a'
+#     elif char == 'a':
+#         new_str += 'p'
+#     else:
+#         new_str += char
+# print(new_str)
+
+#fib
+# a=0
+# b=1
+# for c in range (0,10):
+#     c=a+b
+#     a=b
+#     b=c
+#     print(c)
+# def fib(n):
+#     if n==0:
+#         return 0
+#     elif n==1 or n==2:
+#         return 1
+#     else:
+#         return fib(n-1) + fib(n-2)
+# n=int(input("Enter the number : "))
+# for n in range(n):
+#     print(fib(n))
