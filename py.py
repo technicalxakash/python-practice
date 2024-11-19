@@ -1187,3 +1187,49 @@ These arguments are used when a function can accept a variable number of keyword
 # n=int(input("Enter the number : "))
 # for n in range(n):
 #     print(fib(n))
+
+# str=input("enter the str : ")
+# st=str[::-1]
+# if str==st:
+#     print(f"{str} is a palindrome")
+# else:
+#     print(f" {str} it is not palindrome")
+
+
+# l=1,2,3,4,5
+# print(l[0]+l[1])
+
+# l1=[1,2,3,4]
+# l2=[1,2,3,4]
+# l3=[]
+# for i in range(0,4):
+#     l3.append(l1[i]+l2[i])
+# print(l3)
+
+# my_list = [i for i in range(1, 10)]
+
+# class Solution(object):
+#   def twoSum(self, nums, target):
+#     for i in range(len(nums)):
+#         for j in range(i+1, len(nums)):
+#             if nums[i] + nums[j] == target:
+#                 return [i, j]
+#     return []
+
+    # Simple Python program to find sum of series
+# with cubes of first n natural numbers
+
+# Returns the sum of series 
+# def sumOfSeries(n):
+#     sum = 0
+#     for i in range(1, n + 1):
+#         sum += i * i*i
+        
+#     return sum
+
+
+# # Driver Function
+# n = 5
+# print(sumOfSeries(n))
+
+# Code Contributed by Mohit Gupta_OMG <(0_o)>
