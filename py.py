@@ -1233,3 +1233,40 @@ These arguments are used when a function can accept a variable number of keyword
 # print(sumOfSeries(n))
 
 # Code Contributed by Mohit Gupta_OMG <(0_o)>
+
+
+#Merge Two Sorted Lists
+# def merge_sorted_lists(list1, list2):
+#     i = j = 0
+#     merged = []
+#     while i < len(list1) and j < len(list2):
+#         if list1[i] < list2[j]:
+#             merged.append(list1[i])
+#             i += 1
+#         else:
+#             merged.append(list2[j])
+#             j += 1
+#     merged.extend(list1[i:])
+#     merged.extend(list2[j:])
+#     return merged
+
+
+# def are_anagrams(str1, str2):
+#     return sorted(str1) == sorted(str2)
+
+
+#Check if Two Strings are Anagrams
+# # Example usage:
+# print(are_anagrams("listen", "silent"))  # Output: True
+# print(are_anagrams("hello", "world"))    # Output: False
+
+
+
+#Find the Second Largest Number in a List
+# def second_largest(nums):
+#     unique_nums = list(set(nums))  # Remove duplicates
+#     unique_nums.sort()
+#     return unique_nums[-2]
+
+# # Example usage:
+# print(second_largest([1, 2, 3, 4, 4]))  # Output: 3
