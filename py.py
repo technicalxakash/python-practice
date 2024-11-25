@@ -1270,3 +1270,26 @@ These arguments are used when a function can accept a variable number of keyword
 
 # # Example usage:
 # print(second_largest([1, 2, 3, 4, 4]))  # Output: 3
+
+
+# num1=input("enter the numbers : ")
+# num2=input("enter the numbers : ")
+# num3=input("enter the numbers : ")
+
+# if num1>num2 and num1>num3:
+#     print(num1)
+# elif num2>num1 and num2>num3:
+#     print(num2)
+# else:
+#     print(num3)
+# print("above is greater numbers")
+
+
+# l=input().split(",")
+# print(max(l))
+
+
+
+
+
+
