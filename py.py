@@ -1288,8 +1288,58 @@ These arguments are used when a function can accept a variable number of keyword
 # l=input().split(",")
 # print(max(l))
 
+# def get_permutation(string,i=0):
+#     if i==len(string):
+#         print("".join(string))
+#     for j in range(i,len(string)):
+#         words=[c for c in string]
+#         words[i],words[j]=words[j],words[i]
+#         get_permutation(words,i+1)
+# get_permutation('run')
+
+
+# from itertools import permutations 
+ 
+ 
+# # Get all permutations of [1, 2, 3] 
+# perm = permutations([1, 2, 3]) 
+ 
+# # Print the obtained permutations 
+# for i in perm: 
+#     print (i) 
+
+# from itertools import permutations
+
+# perm=permutations([1,2,3],2)
+
+# for i in perm:
+#     print(i)
 
 
 
+# from itertools import combinations
+# combi=combinations([1,2,3],2)
+
+# for i in combi:
+#     print(i)
+
+# from itertools import permutations
+
+# perm=permutations(["r","u","n"])
+
+# for i in list(perm):
+#     print(i)
 
 
+# from itertools import permutations
+# string='abc'
+# perm=list(permutations(string))
+# perm=[ ''.join(permutations) for permutations in perm]
+# print(perm)
+
+# for i in range(1,101):
+#     for j in range(2,i):
+#         if i%j==0:
+#             break
+#     else:
+#             print(i)
