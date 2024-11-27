@@ -1343,3 +1343,27 @@ These arguments are used when a function can accept a variable number of keyword
 #             break
 #     else:
 #             print(i)
+
+# if __name__ == '__main__':
+#     N = int(input())
+#     list=[]
+#     for i in range(N):
+#         comma=input().split()
+#         cmd=comma[0]
+#         if cmd=="insert":
+#             i, e = int(comma[1]), int(comma[2])
+#             list.insert(i, e)
+#         elif cmd == "print":
+#             print(list)
+#         elif cmd == "remove":
+#             e = int(comma[1])
+#             list.remove(e)
+#         elif cmd == "append":
+#             e = int(comma[1])
+#             list.append(e)
+#         elif cmd == "sort":
+#             list.sort()
+#         elif cmd == "pop":
+#             list.pop()
+#         elif cmd == "reverse":
+#             list.reverse()
