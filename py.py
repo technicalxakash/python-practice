@@ -1367,3 +1367,21 @@ These arguments are used when a function can accept a variable number of keyword
 #             list.pop()
 #         elif cmd == "reverse":
 #             list.reverse()
+
+# number=int(input("enter the number"))
+# if number>1:
+#    for i in range(2,number):
+    
+#         if number%i==0:
+#             print(f"{i} not prime")
+#         else:
+#             print("prime")
+
+# for i in range(1,101):
+#     for j in range(2,i):
+#         if i%j==0:
+#             break
+#     else:
+#         print(i)
+
+
