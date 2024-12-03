@@ -1384,4 +1384,14 @@ These arguments are used when a function can accept a variable number of keyword
 #     else:
 #         print(i)
 
+# Armstrong numbers
+# number=input("enter the number : ")
+# sum=0
+# for i in number:
+#     sum+=int(i)**3
+# if sum==int(number):
+#     print(f"{number} is armstrong number")
+# else:
+#     print(f"{number} is  not armstrong number")
+
 
