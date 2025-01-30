@@ -1395,3 +1395,32 @@ These arguments are used when a function can accept a variable number of keyword
 #     print(f"{number} is  not armstrong number")
 
 
+#oops
+# class human:                         #class
+#     def __init__(self,name):          
+#         self.name=name         #attribute
+
+
+#     def walk(self):              #method
+#         print(f"{self.name} is walking")
+
+
+# alice=human("alice")                 #object
+
+# alice.walk()
+
+
+class mobile:
+    def __init__(self,brand,price):
+        self.brand=brand
+        self.price=price
+
+    def cost(self):
+        print(f"{self.brand} is the mobile brand")
+        print(f"{self.price} is the mobile price")
+
+sumsung=mobile("sumsung","1000")
+
+sumsung.cost()
+
+        
