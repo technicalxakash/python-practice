@@ -1452,19 +1452,19 @@ These arguments are used when a function can accept a variable number of keyword
 
 
 #oops
-class human:                         #class
-    def __init__(self,name,age=-1):  #optional parameter age value there is nothing it will take -1        
-        self.name=name   
-        self.age=age      #attribute
+# class human:                         #class
+#     def __init__(self,name,age=-1):  #optional parameter age value there is nothing it will take -1        
+#         self.name=name   
+#         self.age=age      #attribute
 
 
-    def walk(self):              #method
-        print(f"{self.name} is walking his age is {self.age}")
+#     def walk(self):              #method
+#         print(f"{self.name} is walking his age is {self.age}")
 
 
-a=human("alice",22)  
-b=human("akash")               #object
+# a=human("alice",22)  
+# b=human("akash")               #object
 
-human.walk(a)
-human.walk(b)
+# human.walk(a)
+# human.walk(b)
 
