@@ -1410,17 +1410,61 @@ These arguments are used when a function can accept a variable number of keyword
 # alice.walk()
 
 
-class mobile:
-    def __init__(self,brand,price):
-        self.brand=brand
-        self.price=price
+# class mobile:
+#     def __init__(self,brand,price):
+#         self.brand=brand
+#         self.price=price
 
-    def cost(self):
-        print(f"{self.brand} is the mobile brand")
-        print(f"{self.price} is the mobile price")
+#     def cost(self):
+#         print(f"{self.brand} is the mobile brand")
+#         print(f"{self.price} is the mobile price")
 
-sumsung=mobile("sumsung","1000")
+# sumsung=mobile("sumsung","1000")
 
-sumsung.cost()
+# sumsung.cost()
 
-        
+#sorting same elements in an array        
+# arr1=[1,2,3,4]
+# arr2=[1,6,3,5]
+# arr3=[]
+# for i in arr1:
+#     for j in arr2:
+#         if i==j:
+#             arr3.append(i)
+# print(arr3)
+
+#sorting same elements in an array without using append
+# arr1=[1,2,3,4]
+# arr2=[1,6,3,5]
+# arr3=list(set(arr1).intersection(set(arr2)))
+# print(arr3)
+
+# arr1=[1,2,3,4]
+# arr2=[1,6,3,5]
+# arr3=list(set(arr1).union(set((arr2))))
+# print(arr3)
+
+
+# arr1=[1,2,3,4]
+# arr2=[1,6,3,5]
+# arr3=[i for i in arr1 if i in arr2]
+# print(arr3)
+
+
+#oops
+class human:                         #class
+    def __init__(self,name,age=-1):  #optional parameter age value there is nothing it will take -1        
+        self.name=name   
+        self.age=age      #attribute
+
+
+    def walk(self):              #method
+        print(f"{self.name} is walking his age is {self.age}")
+
+
+a=human("alice",22)  
+b=human("akash")               #object
+
+human.walk(a)
+human.walk(b)
+
