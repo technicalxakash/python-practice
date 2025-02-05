@@ -1468,3 +1468,64 @@ These arguments are used when a function can accept a variable number of keyword
 # human.walk(a)
 # human.walk(b)
 
+#opps=it is programming style and not a specific lanaguage built on the concept of object , it uses object to represnt data and methods
+
+#1)abstarction=used to hide the complex internal operations of object , exposes only the essential parts for interaction
+
+# l=[1,2,3,4]
+# l.append(5) # it is abstraction hiddening of information
+# print(l)
+
+#2)encapsulation=wrapping of data and methods in a single unit
+
+# class Database:
+#     def __init__(self):
+#         # self.storage={} #public attribute
+#         # self._storage ={}#protected
+#         #self.__storage ={}#private
+
+#     def write(self,key,value):
+#         self.storage[key]=value
+
+#     def read(self,key):
+#         if key in self.storage:
+#             print(self.storage[key])
+#         else:
+#             print("db item not available")
+
+# db=Database()
+# db.write("sub","100k")
+# db.write("subbbbb","200k")
+
+# db.read("sub")
+# print(db.storage)  #not private here printing all 
+
+
+
+#private
+# class Database:
+#     def __init__(self):
+
+#         self.__storage ={}#private
+
+#     def write(self,key,value):
+#         self.__storage[key]=value
+
+#     def read(self,key):
+#         if key in self.__storage:
+#             print(self.__storage[key])
+#         else:
+#             print("db item not available")
+
+# db=Database()
+# db.write("sub","100k")
+# db.write("subbbbb","200k")
+
+# db.read("sub")
+ #it will not give full storage
+
+ 
+
+
+
+
